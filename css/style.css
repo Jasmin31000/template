@@ -16,17 +16,17 @@
 }
 :root
 {
-  --clr: #FF0000;
-  --clr01: #B22222;
-  --clr02: #FE1B00;
-  --clr03: #6E0B14;
-  --clr1: #ffffff;
-  --clr2: #000000;
+  --silver: #C0C0C0;
+  --royalblue: #4169E1;
+  --skyblue: #87CEFA;
+  --gold: #FFD700;
 }
 body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--clr2);
+  background: linear-gradient(to top, var(--royalblue), var(--skyblue));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   flex-direction: column;
 }
